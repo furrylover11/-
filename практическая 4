@@ -1,0 +1,102 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    int num1;
+    int num2 = 1;
+    int answer;
+    cout << "введи число: ";
+    cin >> num1;
+    cout << "Реши пример:" << num1 << "*" << num2 << endl;
+    cout << "Ответ: ";
+    cin >> answer;
+
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 2;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 3;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 4;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 5;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 6;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 7;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 8;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "пример решен верно" << endl;
+
+    num2 = 9;
+    cout << "реши пример: " << num1 << "*" << num2 << endl;
+    cout << "ответ: ";
+    cin >> answer;
+    if (answer != num1 * num2) {
+        cout << "ошибка, пример решен неверно" << endl;
+        return 0;
+    }
+    cout << "все примеры решены верно" << endl;
+    return 0;
+}
