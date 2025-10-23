@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	double num1, num2;
+	char op;
+	cout << "Введите первое число в калькулятор: ";
+	cin >> num1;
+	cout << "Введите операцию: ";
+	cin >> op;
+	cout << "Введите второе число в калькулятор: ";
+	cin >> num2;
+	if (op == '+') {
+		cout << "Результат: " << num1 + num2 << endl;
+	}
+	else if (op == '-') {
+		cout << "Результат: " << num1 - num2 << endl;
+	}
+	else if (op == '*') {
+		cout << "Результат: " << num1 * num2 << endl;
+	}
+	else if (op == '%') {
+		cout << "Результат: " << (int)num1 % (int)num2 << endl;
+	}
+	else {
+		cout << "Ошибка" << endl;
+	}
+	if (op == '/') {
+		if (num2 != 0)
+			cout << "Результат: " << num1 / num2 << endl;
+		if (num2 == 0)
+			cout << "не дели на ноль" << endl;
+	}
+	return 0;
+}
