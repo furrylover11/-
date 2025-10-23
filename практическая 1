@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 10;
+	int box = 20;
+	int c = 6;
+	int sum = 345;
+	int count = 365;
+	short size_1 = 304;
+	short num = 382;
+	short height = 149;
+	short volume = 180;
+	short tall = 1444;
+	float diameter = 1.2;
+	float mass = 1.5;
+	float number = 6.7;
+	float damage = 30.9;
+	float hp = 50.1;
+	double energy = 1000.1;
+	double kg = 83.2;
+	double cost = 50.9;
+	double value = 70.6;
+	double code = 66.6;
+	char symbol = 'a';
+	char mark = '5';
+	char sign = '!';
+	char grade = '4';
+	char category = 'c';
+	string president = "zharkov";
+	string text = "hello world";
+	string cat_name = "nana";
+	string julia = "Sigma";
+	string info = "link";
+	cout << "a: " << a << endl;
+	cout << "box: " << box << endl;
+	cout << "c: " << c << endl;
+	cout << "sum: " << sum << endl;
+	cout << "count: " << count << endl;
+	cout << "size_1: " << size_1 << endl;
+	cout << "num: " << num << endl;
+	cout << "height: " << height << endl;
+	cout << "volume: " << volume << endl;
+	cout << "tall: " << tall << endl;
+	cout << "diameter: " << diameter << endl;
+	cout << "mass: " << mass << endl;
+	cout << "number: " << number << endl;
+	cout << "damage: " << damage << endl;
+	cout << "hp: " << hp << endl;
+	cout << "energy: " << energy << endl;
+	cout << "kg: " << kg << endl;
+	cout << "cost: " << cost << endl;
+	cout << "value: " << value << endl;
+	cout << "code: " << code << endl;
+	cout << "symbol: " << symbol << endl;
+	cout << "mark: " << mark << endl;
+	cout << "sign: " << sign << endl;
+	cout << "grade: " << grade << endl;
+	cout << "category: " << category << endl;
+	cout << "president: " << president << endl;
+	cout << "text: " << text << endl;
+	cout << "cat_name: " << cat_name << endl;
+	cout << "julia: " << julia << endl;
+	cout << "info: " << info;
+
+		return 0;
+}
