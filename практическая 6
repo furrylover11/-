@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	int month;
+	cout << "месяца года" << endl;
+	cout << "январь-1" << endl;
+	cout << "февраль-2 " << endl;
+	cout << "март-3" << endl;
+	cout << "апрель-4" << endl;
+	cout << "май-5" << endl;
+	cout << "июнь-6" << endl;
+	cout << "июль-7" << endl;
+	cout << "август-8" << endl;
+	cout << "сентябрь-9" << endl;
+	cout << "октябрь-10" << endl;
+	cout << "ноябрь-11" << endl;
+	cout << "декабрь-12" << endl;
+	cout << "Выбери число и выдаст месяц: "
+	cin >> month;
+	switch (month) {
+	case 1:
+		cout << "выбран январь";
+	    break;
+	case 2:
+		cout << "выбран февраль";
+		break;
+	case 3:
+		cout << "выбран март";
+		break;
+	case 4:
+		cout << "выбран апрель";
+		break;
+	case 5:
+		cout << "выбран май";
+		break;
+	case 6:
+		cout << "выбран июнь";
+		break;
+	case 7:
+		cout << "выбран июль";
+		break;
+	case 8:
+		cout << "выбран август";
+		break;
+	case 9:
+		cout << "выбран сентябрь";
+		break;
+	case 10:
+		cout << "выбран октябрь";
+		break;
+	case 11:
+		cout << "выбран ноябрь";
+		break;
+	case 12:
+		cout << "выбран декабрь";
+		break;
+	default:
+		cout << "неправильно введен номер месяца";
+		break;
+	}
+return 0;
+}
