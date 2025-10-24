@@ -1,0 +1,170 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	int month;
+	int day;
+	cout << "календарь" << endl;
+	cout << "январь-1" << endl;
+	cout << "февраль-2 " << endl;
+	cout << "март-3" << endl;
+	cout << "апрель-4" << endl;
+	cout << "май-5" << endl;
+	cout << "июнь-6" << endl;
+	cout << "июль-7" << endl;
+	cout << "август-8" << endl;
+	cout << "сентябрь-9" << endl;
+	cout << "октябрь-10" << endl;
+	cout << "ноябрь-11" << endl;
+	cout << "декабрь-12" << endl;
+	cout << "Выбери месяц:" << endl;
+	string monthName;
+	cin >> month;
+	switch (month) {
+	case 1:
+		monthName = "январь";
+		break;
+	case 2:
+		monthName = "февраль";
+		break;
+	case 3:
+		monthName = "март";
+		break;
+	case 4:
+		monthName = "апрель";
+		break;
+	case 5:
+		monthName = "май";
+		break;
+	case 6:
+		monthName = "июнь";
+		break;
+	case 7:
+		monthName = "июль";
+		break;
+	case 8:
+		monthName = "август";
+		break;
+	case 9:
+		monthName = "сентябрь";
+		break;
+	case 10:
+		monthName = "октябрь";
+		break;
+	case 11:
+		monthName = "ноябрь";
+		break;
+	case 12:
+		monthName = "декабрь";
+		break;
+	default:
+		cout << "неизвестный месяц";
+		return 0;
+		break;
+	}
+	cout << "месяц выбран, выбери день: ";
+	int dayResult;
+	cin >> day;
+	switch (day) {
+	case 1:
+		dayResult = 1;
+		break;
+	case 2:
+		dayResult = 2;
+		break;
+	case 3:
+		dayResult = 3;
+		break;
+	case 4:
+		dayResult = 4;
+		break;
+	case 5:
+		dayResult = 5;
+		break;
+	case 6:
+		dayResult = 6;
+		break;
+	case 7:
+		dayResult = 7;
+		break;
+	case 8:
+		dayResult = 8;
+		break;
+	case 9:
+		dayResult = 9;
+		break;
+	case 10:
+		dayResult = 10;
+		break;
+	case 11:
+		dayResult = 11;
+		break;
+	case 12:
+		dayResult = 12;
+		break;
+	case 13:
+		dayResult = 13;
+		break;
+	case 14:
+		dayResult = 14;
+		break;
+	case 15:
+		dayResult = 15;
+		break;
+	case 16:
+		dayResult = 16;
+		break;
+	case 17:
+		dayResult = 17;
+		break;
+	case 18:
+		dayResult = 18;
+		break;
+	case 19:
+		dayResult = 19;
+		break;
+	case 20:
+		dayResult = 20;
+		break;
+	case 21:
+		dayResult = 21;
+		break;
+	case 22:
+		dayResult = 22;
+		break;
+	case 23:
+		dayResult = 23;
+		break;
+	case 24:
+		dayResult = 24;
+		break;
+	case 25:
+		dayResult = 25;
+		break;
+	case 26:
+		dayResult = 26;
+		break;
+	case 27:
+		dayResult = 27;
+		break;
+	case 28:
+		dayResult = 28;
+		break;
+	case 29:
+		dayResult = 29;
+		break;
+	case 30:
+		dayResult = 30;
+		break;
+	case 31:
+		dayResult = 31;
+		break;
+	default:
+		cout << "ошибка нет такго дня";
+		return 0;
+		break;
+	}
+	cout << "календарь: " << dayResult << " " << monthName;
+return 0;
+}
